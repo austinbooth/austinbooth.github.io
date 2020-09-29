@@ -230,12 +230,12 @@ a {
 .form-row textarea {
   font-size: 14pt;
   padding: 3px;
-  /* flex: 17; */
-  width: 450px;
+  flex: 17;
+  /* width: 450px; */
 }
 
 .form-row textarea {
-  height: 100px;
+  height: 200px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -285,13 +285,46 @@ a {
   .form-row textarea {
     font-size: 14pt;
     padding: 3px;
-    /* flex: 17; */
-    width: 210px;
+    /* flex: 17;
+    width: 210px; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form-row input,
+  .form-row textarea {
+    font-size: 14pt;
+    padding: 3px;
+    flex: 10;
   }
 }
 
 @media only screen and (max-width: 420px) {
   .full-project .body {
     text-align: justify;
+  }
+
+  .form-row {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  .form-row input,
+  .form-row textarea {
+    font-size: 14pt;
+    padding: 3px;
+  }
+
+  .form-row textarea {
+    min-height: 150px;
+  }
+
+  .form-submit-row input {
+    margin: 0;
   }
 }
