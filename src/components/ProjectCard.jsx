@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 
 const ProjectCard = ({
   project: {
@@ -15,7 +16,11 @@ const ProjectCard = ({
 }) => {
   return (
     <li className="project-card">
-      <a href={`/project/${id}`} className="project-card-link">
+      <Link
+        to={process.env.PUBLIC_URL + `/project/${id}`}
+        className="project-card-link"
+      >
+        {/* <a href={`/project/${id}`} className="project-card-link"> */}
         <img src={image} alt={altImage}></img>
         <h3>{title}</h3>
         <section>
@@ -27,7 +32,8 @@ const ProjectCard = ({
           {/* </ul> */}
         </section>
         <p>{cardBody}</p>
-      </a>
+        {/* </a> */}
+      </Link>
     </li>
   );
 };

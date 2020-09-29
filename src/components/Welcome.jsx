@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import projectData from "../projectData";
+import { Link } from "@reach/router";
 
 const Welcome = () => {
   return (
@@ -13,7 +14,10 @@ const Welcome = () => {
         I'm a Full-stack software developer. I'm passionate about coding, data
         science, travel and music. Before learning to code seriously I was a
         science teacher. Why did I change career?{" "}
-        <a href="/about">You can find out more here...</a> and{" "}
+        <Link to={process.env.PUBLIC_URL + "/about"}>
+          You can find out more here...
+        </Link>{" "}
+        and{" "}
         <a
           href="https://dev.to/austinbooth/my-journey-from-teaching-to-software-development-1ppc"
           target="_blank"

@@ -1,19 +1,17 @@
 import React from "react";
+import { Link } from "@reach/router";
 
 const nav = () => {
   return (
     <ul className="nav">
       <li>
-        <a href="/">Welcome</a>
+        <Link to={process.env.PUBLIC_URL + "/"}>Welcome</Link>
       </li>
       <li>
-        <a href="/about">About</a>
+        <Link to={process.env.PUBLIC_URL + "/about/"}>About</Link>
       </li>
-      {/* <li>
-        <a href="#">Projects</a>
-      </li> */}
       <li>
-        <a href="/contact">Contact</a>
+        <Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link>
       </li>
     </ul>
   );
