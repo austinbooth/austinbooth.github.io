@@ -16,10 +16,12 @@ function App() {
       </header>
       <section className="main">
         <Router>
-          <Welcome path="/" />
-          <About path="/about" />
-          <SingleProject path="/project/:projectName" />
-          <Contact path="/contact" />
+          <Welcome path={process.env.PUBLIC_URL + "/"} />
+          <About path={process.env.PUBLIC_URL + "/about"} />
+          <SingleProject
+            path={process.env.PUBLIC_URL + "/project/:projectName"}
+          />
+          <Contact path={process.env.PUBLIC_URL + "/contact"} />
         </Router>
       </section>
       <footer>
