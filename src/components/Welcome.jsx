@@ -13,7 +13,10 @@ const Welcome = () => {
       <p>
         I'm a Full-stack software developer. I'm passionate about coding, data
         science, travel and music. Before learning to code seriously I was a
-        science teacher. Why did I change career?{" "}
+        science teacher.
+      </p>
+      <p>
+        Why did I change career?{" "}
         <Link to={process.env.PUBLIC_URL + "/about"}>
           You can find out more here...
         </Link>{" "}
