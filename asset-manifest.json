@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.471c9512.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.9eea95f7.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.9eea95f7.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.e65ae6a1.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.e65ae6a1.js.map",
+    "static/js/2.84927b9b.chunk.js": "/portfolio-website/static/js/2.84927b9b.chunk.js",
+    "static/js/2.84927b9b.chunk.js.map": "/portfolio-website/static/js/2.84927b9b.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "precache-manifest.74171c5ded38122fd054152decfa8006.js": "/portfolio-website/precache-manifest.74171c5ded38122fd054152decfa8006.js",
+    "service-worker.js": "/portfolio-website/service-worker.js",
+    "static/css/main.471c9512.chunk.css.map": "/portfolio-website/static/css/main.471c9512.chunk.css.map",
+    "static/js/2.84927b9b.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.84927b9b.chunk.js.LICENSE.txt",
+    "static/media/Austin-Booth-thumb-180x180.png": "/portfolio-website/static/media/Austin-Booth-thumb-180x180.68d1263f.png",
+    "static/media/nc-news-be.png": "/portfolio-website/static/media/nc-news-be.51e154fa.png",
+    "static/media/nc-news-fe.png": "/portfolio-website/static/media/nc-news-fe.9029959e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e65ae6a1.js",
+    "static/js/2.84927b9b.chunk.js",
+    "static/css/main.471c9512.chunk.css",
+    "static/js/main.9eea95f7.chunk.js"
+  ]
+}
