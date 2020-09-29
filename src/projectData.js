@@ -55,7 +55,8 @@ const projectData = [
       "Axios",
     ],
     date: "September 2020",
-    cardBody: "A full-stack group project completed over two weeks; the final project completed from the Northcoders bootcamp.",
+    cardBody:
+      "A full-stack group project completed over two weeks; the final project completed as part of the Northcoders bootcamp.",
     githubUrl: [
       {
         url: "https://github.com/austinbooth/travelbuddy-backend",
