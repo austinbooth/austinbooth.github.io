@@ -2,7 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://austinbooth.github.io/portfolio-website",
+  "homepage": "http://austinbooth.github.io/",
   "dependencies": {
     "@reach/router": "^1.3.4",
     "@testing-library/jest-dom": "^4.2.4",
