@@ -10,6 +10,7 @@ const SingleProject = (props) => {
     id,
     title,
     language,
+    technologiesShort,
     technologiesFull,
     date,
     cardBody,
@@ -19,6 +20,7 @@ const SingleProject = (props) => {
     altImage,
     fullBody,
   } = singleProjectData;
+  const technologies = technologiesFull ? technologiesFull : technologiesShort;
   return (
     <div className="full-project">
       <h1>{title}</h1>
@@ -28,7 +30,7 @@ const SingleProject = (props) => {
         <section>
           <h2>Technologies used:</h2>
           <ul>
-            {technologiesFull.map((technology) => (
+            {technologies.map((technology) => (
               <li>{technology}</li>
             ))}
           </ul>
