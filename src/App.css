@@ -259,6 +259,12 @@ a {
   margin-left: 90px;
 }
 
+@media only screen and (min-width: 1628px) {
+  .main {
+    margin: 0 16%;
+  }
+}
+
 @media only screen and (max-width: 1300px) {
   .main {
     margin-bottom: 70px;
