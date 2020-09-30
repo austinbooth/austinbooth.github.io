@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ed3102a.chunk.css",
+    "main.css": "/static/css/main.da1eac58.chunk.css",
     "main.js": "/static/js/main.ae0596e1.chunk.js",
     "main.js.map": "/static/js/main.ae0596e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c542aba9.js",
@@ -8,9 +8,9 @@
     "static/js/2.eb004adb.chunk.js": "/static/js/2.eb004adb.chunk.js",
     "static/js/2.eb004adb.chunk.js.map": "/static/js/2.eb004adb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.623035b69e9d4a8e1dfcbe4e3ffbd81b.js": "/precache-manifest.623035b69e9d4a8e1dfcbe4e3ffbd81b.js",
+    "precache-manifest.e1717e51bf23f27cda314af4ce6ffbed.js": "/precache-manifest.e1717e51bf23f27cda314af4ce6ffbed.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2ed3102a.chunk.css.map": "/static/css/main.2ed3102a.chunk.css.map",
+    "static/css/main.da1eac58.chunk.css.map": "/static/css/main.da1eac58.chunk.css.map",
     "static/js/2.eb004adb.chunk.js.LICENSE.txt": "/static/js/2.eb004adb.chunk.js.LICENSE.txt",
     "static/media/Austin-Booth-thumb-180x180.png": "/static/media/Austin-Booth-thumb-180x180.68d1263f.png",
     "static/media/nc-news-be.png": "/static/media/nc-news-be.51e154fa.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.c542aba9.js",
     "static/js/2.eb004adb.chunk.js",
-    "static/css/main.2ed3102a.chunk.css",
+    "static/css/main.da1eac58.chunk.css",
     "static/js/main.ae0596e1.chunk.js"
   ]
 }
