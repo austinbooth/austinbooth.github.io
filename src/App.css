@@ -161,6 +161,10 @@ h3 {
   font-size: 1.01rem;
 }
 
+.project-card h3 {
+  margin: 20px 7px;
+}
+
 .project-card a:hover h3 {
   text-decoration: underline;
 }
