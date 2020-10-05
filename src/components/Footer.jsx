@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section class="icons">
+    <section className="icons">
       <a href="https://twitter.com/austinbcodes" target="_blank">
         <img src="https://img.icons8.com/fluent/70/000000/twitter.png" />
       </a>
