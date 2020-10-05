@@ -71,16 +71,14 @@ const SingleProject = (props) => {
         {demoVideo && (
           <div>
             <h3>Demo video</h3>
-            <video
-              playsInline
-              autoPlay
-              muted
-              loop
-              width={demoVideo.width}
-              height={demoVideo.height}
-            >
-              <source src={demoVideo.video} type="video/mp4"></source>
-            </video>
+            <iframe
+              width="806"
+              height="454"
+              src="https://www.youtube.com/embed/ZJiCeUKk-tc?rel=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         )}
       </section>
