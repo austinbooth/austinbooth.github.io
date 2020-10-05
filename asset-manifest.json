@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.da1eac58.chunk.css",
-    "main.js": "/static/js/main.ae0596e1.chunk.js",
-    "main.js.map": "/static/js/main.ae0596e1.chunk.js.map",
+    "main.css": "/static/css/main.14be6220.chunk.css",
+    "main.js": "/static/js/main.4f076505.chunk.js",
+    "main.js.map": "/static/js/main.4f076505.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c542aba9.js",
     "runtime-main.js.map": "/static/js/runtime-main.c542aba9.js.map",
-    "static/js/2.eb004adb.chunk.js": "/static/js/2.eb004adb.chunk.js",
-    "static/js/2.eb004adb.chunk.js.map": "/static/js/2.eb004adb.chunk.js.map",
+    "static/js/2.4ddc2080.chunk.js": "/static/js/2.4ddc2080.chunk.js",
+    "static/js/2.4ddc2080.chunk.js.map": "/static/js/2.4ddc2080.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e1717e51bf23f27cda314af4ce6ffbed.js": "/precache-manifest.e1717e51bf23f27cda314af4ce6ffbed.js",
+    "precache-manifest.2f121f7f6d80fdf29b925e83653a9602.js": "/precache-manifest.2f121f7f6d80fdf29b925e83653a9602.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.da1eac58.chunk.css.map": "/static/css/main.da1eac58.chunk.css.map",
-    "static/js/2.eb004adb.chunk.js.LICENSE.txt": "/static/js/2.eb004adb.chunk.js.LICENSE.txt",
+    "static/css/main.14be6220.chunk.css.map": "/static/css/main.14be6220.chunk.css.map",
+    "static/js/2.4ddc2080.chunk.js.LICENSE.txt": "/static/js/2.4ddc2080.chunk.js.LICENSE.txt",
     "static/media/Austin-Booth-thumb-180x180.png": "/static/media/Austin-Booth-thumb-180x180.68d1263f.png",
+    "static/media/Guess-the-number-demo.mp4": "/static/media/Guess-the-number-demo.afdd1725.mp4",
+    "static/media/guess-card-header.png": "/static/media/guess-card-header.2604e82e.png",
+    "static/media/guess-lost.png": "/static/media/guess-lost.a7983464.png",
+    "static/media/guess-won.png": "/static/media/guess-won.747a9fcb.png",
     "static/media/nc-news-be.png": "/static/media/nc-news-be.51e154fa.png",
     "static/media/nc-news-fe.png": "/static/media/nc-news-fe.9029959e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c542aba9.js",
-    "static/js/2.eb004adb.chunk.js",
-    "static/css/main.da1eac58.chunk.css",
-    "static/js/main.ae0596e1.chunk.js"
+    "static/js/2.4ddc2080.chunk.js",
+    "static/css/main.14be6220.chunk.css",
+    "static/js/main.4f076505.chunk.js"
   ]
 }
