@@ -259,10 +259,34 @@ a {
   margin-left: 90px;
 }
 
+.extraMedia {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+}
+
+.extraMedia img {
+  margin: 10px 15px 25px;
+  width: 300px;
+}
+
+.extraMedia h3 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1628px) {
+  .extraMedia {
+    margin-bottom: 50px;
+  }
+}
+
 @media only screen and (min-width: 1628px) {
   .main {
     margin: 0 16%;
   }
+
+  
 }
 
 @media only screen and (max-width: 1300px) {

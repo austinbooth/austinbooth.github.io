@@ -19,6 +19,8 @@ const SingleProject = (props) => {
     image,
     altImage,
     fullBody,
+    otherImages,
+    demoVideo,
   } = singleProjectData;
   const technologies = technologiesFull ? technologiesFull : technologiesShort;
   return (
@@ -58,13 +60,28 @@ const SingleProject = (props) => {
                 )
               );
             })}
-            {/* <li>
-              <a href={liveUrl} target="_blank">
-                View the live version here
-              </a>
-            </li> */}
           </ul>
         </section>
+      </section>
+      <section className="extraMedia">
+        {otherImages &&
+          otherImages.map((image) => (
+            <img src={image.img} alt={image.alt}></img>
+          ))}
+        {demoVideo && (
+          <div>
+            <h3>Demo video</h3>
+            <video
+              autoPlay
+              muted
+              loop
+              width={demoVideo.width}
+              height={demoVideo.height}
+            >
+              <source src={demoVideo.video} type="video/mp4"></source>
+            </video>
+          </div>
+        )}
       </section>
     </div>
   );
