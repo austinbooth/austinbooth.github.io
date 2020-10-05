@@ -32,8 +32,8 @@ const SingleProject = (props) => {
         <section>
           <h2>Technologies used:</h2>
           <ul>
-            {technologies.map((technology) => (
-              <li>{technology}</li>
+            {technologies.map((technology, index) => (
+              <li key={index}>{technology}</li>
             ))}
           </ul>
         </section>
@@ -42,7 +42,7 @@ const SingleProject = (props) => {
           <ul>
             {githubUrl.map((link) => {
               return (
-                <li>
+                <li key={link}>
                   <a href={link.url} target="_blank">
                     {link.desc ? link.desc : "Code on GitHub"}
                   </a>
