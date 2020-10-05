@@ -72,6 +72,7 @@ const SingleProject = (props) => {
           <div>
             <h3>Demo video</h3>
             <video
+              playsInline
               autoPlay
               muted
               loop
