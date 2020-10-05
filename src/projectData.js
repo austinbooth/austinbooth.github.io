@@ -1,6 +1,53 @@
 import ncNewsBe from "./images/nc-news-be.png";
 import ncNewsFe from "./images/nc-news-fe.png";
+import guessCardHeader from "./images/guess-card-header.png";
+
+import guessLost from "./images/guess-lost.png";
+import guessWon from "./images/guess-won.png";
+import guessDemoVideo from "./images/Guess-the-number-demo.mp4";
 const projectData = [
+  // {
+  //   id: "blank",
+  //   title: "blank",
+  //   language: "Python",
+  //   technologiesShort: ["tech"],
+  //   technologiesFull: ["tech"],
+  //   date: "May 2020",
+  //   cardBody: "body",
+  //   githubUrl: [
+  //     {
+  //       url: "url",
+  //       desc: null,
+  //     },
+  //   ],
+  //   liveUrl: [{ url: null, desc: null }],
+  //   image: ncNewsBe,
+  //   altImage: "alt text",
+  //   fullBody: null,
+  //   otherImages: [],
+  //   demoVideo: null
+  // },
+  {
+    id: "guess-the-number-app",
+    title: "Guess the Number App",
+    language: "JavaScript",
+    technologiesShort: ["React Native"],
+    // technologiesFull: [""],
+    date: "October 2020",
+    cardBody: "A simple 'guess the number' game to learn the fundamentals about React Native.",
+    githubUrl: [
+      {
+        url: "https://github.com/austinbooth/rn-guess-the-number",
+        desc: null,
+      },
+    ],
+    liveUrl: [{ url: null, desc: null }],
+    image: guessCardHeader,
+    altImage: "alt text",
+    fullBody: null,
+    // otherImages: [{ img: guessLost, alt: "alt text" }, { img: guessWon, alt: "alt text" }],
+    demoVideo: { video: guessDemoVideo, width: 300, height: 612.78}
+  },
   {
     id: "travel-buddy",
     title: "Travel Buddy",
@@ -105,7 +152,7 @@ const projectData = [
     title: "Coffee Shop (Udacity project)",
     language: "Python",
     technologiesShort: ["Flask", "Auth0"],
-    // technologiesFull: ["blah"],
+    // technologiesFull: [""],
     date: "May 2020",
     cardBody:
       "I completed an already existing codebase by implementing Auth0 JWT authentication for a ficticious coffee shop website.",
@@ -125,7 +172,7 @@ const projectData = [
     title: "Trivia app (Udacity project)",
     language: "Python",
     technologiesShort: ["Flask", "SQLAlchemy", "PostgreSQL"],
-    // technologiesFull: ["blah"],
+    // technologiesFull: [""],
     date: "May 2020",
     cardBody:
       "I completed an already exisiting codebase by adding several API endpoints to enable CRUD operations on quiz questions stored in the PostgreSQL database.",
@@ -145,7 +192,7 @@ const projectData = [
     title: "Fyyur (Udacity project)",
     language: "Python",
     technologiesShort: ["Flask", "SQLAlchemy", "PostgreSQL"],
-    // technologiesFull: ["tech"],
+    // technologiesFull: [""],
     date: "May 2020",
     cardBody: "I completed an already exisiting codebase by adding models to allow the app to interact with a PostgreSQL database.",
     githubUrl: [
@@ -158,24 +205,6 @@ const projectData = [
     image: ncNewsBe,
     altImage: "alt text",
   },
-  // {
-  //   id: "blank",
-  //   title: "blank",
-  //   language: "Python",
-  //   technologiesShort: ["tech"],
-  //   technologiesFull: ["tech"],
-  //   date: "May 2020",
-  //   cardBody: "body",
-  //   githubUrl: [
-  //     {
-  //       url: "url",
-  //       desc: null,
-  //     },
-  //   ],
-  //   liveUrl: [{ url: null, desc: null }],
-  //   image: ncNewsBe,
-  //   altImage: "alt text",
-  // },
 ];
 
 export default projectData;
