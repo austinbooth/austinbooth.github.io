@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.14be6220.chunk.css",
-    "main.js": "/static/js/main.e8bad09a.chunk.js",
-    "main.js.map": "/static/js/main.e8bad09a.chunk.js.map",
+    "main.js": "/static/js/main.9326dd28.chunk.js",
+    "main.js.map": "/static/js/main.9326dd28.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c542aba9.js",
     "runtime-main.js.map": "/static/js/runtime-main.c542aba9.js.map",
-    "static/js/2.0703a787.chunk.js": "/static/js/2.0703a787.chunk.js",
-    "static/js/2.0703a787.chunk.js.map": "/static/js/2.0703a787.chunk.js.map",
+    "static/js/2.0edbc2b7.chunk.js": "/static/js/2.0edbc2b7.chunk.js",
+    "static/js/2.0edbc2b7.chunk.js.map": "/static/js/2.0edbc2b7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f2166dd053a61cb24d8753bf2fa43221.js": "/precache-manifest.f2166dd053a61cb24d8753bf2fa43221.js",
+    "precache-manifest.4a9b1b951ace58bc06fa610ea7d60b46.js": "/precache-manifest.4a9b1b951ace58bc06fa610ea7d60b46.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.14be6220.chunk.css.map": "/static/css/main.14be6220.chunk.css.map",
-    "static/js/2.0703a787.chunk.js.LICENSE.txt": "/static/js/2.0703a787.chunk.js.LICENSE.txt",
+    "static/js/2.0edbc2b7.chunk.js.LICENSE.txt": "/static/js/2.0edbc2b7.chunk.js.LICENSE.txt",
     "static/media/Austin-Booth-thumb-180x180.png": "/static/media/Austin-Booth-thumb-180x180.68d1263f.png",
     "static/media/Guess-the-number-demo.mp4": "/static/media/Guess-the-number-demo.afdd1725.mp4",
     "static/media/guess-card-header.png": "/static/media/guess-card-header.2604e82e.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c542aba9.js",
-    "static/js/2.0703a787.chunk.js",
+    "static/js/2.0edbc2b7.chunk.js",
     "static/css/main.14be6220.chunk.css",
-    "static/js/main.e8bad09a.chunk.js"
+    "static/js/main.9326dd28.chunk.js"
   ]
 }
