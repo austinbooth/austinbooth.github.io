@@ -43,7 +43,7 @@ const projectData = [
     altImage: "alt text",
     fullBody: null,
     // otherImages: [{ img: guessLost, alt: "alt text" }, { img: guessWon, alt: "alt text" }],
-    demoVideo: { video: "https://www.youtube.com/embed/ZJiCeUKk-tc?rel=0", width: 300, height: 500}
+    demoVideo: { video: "https://www.youtube.com/embed/ZJiCeUKk-tc?rel=0", title: "Demo of my 'guess the number' React Native app", width: 300, height: 500}
   },
   {
     id: "travel-buddy",

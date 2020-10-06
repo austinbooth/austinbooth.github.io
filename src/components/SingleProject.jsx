@@ -72,6 +72,7 @@ const SingleProject = (props) => {
           <div>
             <h3>Demo video</h3>
             <iframe
+              title={demoVideo.title}
               width={demoVideo.width}
               height={demoVideo.height}
               src={demoVideo.video}
