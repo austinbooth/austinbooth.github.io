@@ -203,6 +203,8 @@ a {
 .full-project img {
   display: block;
   margin: 0 auto;
+  border: solid rgb(197, 195, 195) 1px;
+  border-radius: 10px;
 }
 
 .project-info {
