@@ -287,6 +287,10 @@ a {
   .main {
     margin: 0 16% 70px;
   }
+
+  .extraMedia {
+    margin-bottom: 50px;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
