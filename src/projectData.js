@@ -43,7 +43,7 @@ const projectData = [
     altImage: "alt text",
     fullBody: null,
     // otherImages: [{ img: guessLost, alt: "alt text" }, { img: guessWon, alt: "alt text" }],
-    demoVideo: { video: "https://www.youtube.com/embed/ZJiCeUKk-tc?rel=0", title: "Demo of my 'guess the number' React Native app", width: 300, height: 500}
+    demoVideo: { video: "https://www.youtube.com/embed/ZJiCeUKk-tc?rel=0", title: "Demo of my 'guess the number' React Native app", width: 300, height: 500 }
   },
   {
     id: "travel-buddy",
@@ -86,7 +86,7 @@ const projectData = [
       "A Reddit-style news app which uses my NC News API as the backend.",
     githubUrl: [
       {
-        url: "https://github.com/austinbooth/nc-news-backend",
+        url: "https://github.com/austinbooth/nc-news-frontend",
         desc: null,
       },
     ],
