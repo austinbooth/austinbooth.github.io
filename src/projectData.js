@@ -2,9 +2,6 @@ import ncNewsBe from "./images/nc-news-be.png";
 import ncNewsFe from "./images/nc-news-fe.png";
 import guessCardHeader from "./images/guess-card-header.png";
 
-import guessLost from "./images/guess-lost.png";
-import guessWon from "./images/guess-won.png";
-import guessDemoVideo from "./images/Guess-the-number-demo.mp4";
 const projectData = [
   // {
   //   id: "blank",
@@ -46,7 +43,7 @@ const projectData = [
     altImage: "alt text",
     fullBody: null,
     // otherImages: [{ img: guessLost, alt: "alt text" }, { img: guessWon, alt: "alt text" }],
-    demoVideo: { video: guessDemoVideo, width: 300, height: 612.78}
+    demoVideo: { video: "https://www.youtube.com/embed/ZJiCeUKk-tc?rel=0", width: 300, height: 500}
   },
   {
     id: "travel-buddy",
