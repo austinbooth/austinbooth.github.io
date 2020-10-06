@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20c26badbf8fa1bc21d75eb2c5bc4b5b",
+    "revision": "bd5eda823dd5f28761a03dd1d26f70cf",
     "url": "/index.html"
   },
   {
-    "revision": "8cd7bc4d1e0387da26e6",
-    "url": "/static/css/main.8b140d9d.chunk.css"
+    "revision": "28242487a88f32d9b467",
+    "url": "/static/css/main.306b6211.chunk.css"
   },
   {
-    "revision": "dd23c1aeab3f4d8c20bd",
-    "url": "/static/js/2.4ddc2080.chunk.js"
+    "revision": "10cb2de08bf0876ab92a",
+    "url": "/static/js/2.5171fd44.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.4ddc2080.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5171fd44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8cd7bc4d1e0387da26e6",
-    "url": "/static/js/main.db3a755b.chunk.js"
+    "revision": "28242487a88f32d9b467",
+    "url": "/static/js/main.158c390f.chunk.js"
   },
   {
     "revision": "0934e5a0629121a12638",
@@ -28,20 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Austin-Booth-thumb-180x180.68d1263f.png"
   },
   {
-    "revision": "afdd17253a9f9ba706e9e9aa4c17ecaf",
-    "url": "/static/media/Guess-the-number-demo.afdd1725.mp4"
-  },
-  {
     "revision": "2604e82e703f4931fe2619a74656c190",
     "url": "/static/media/guess-card-header.2604e82e.png"
-  },
-  {
-    "revision": "a7983464b73a222a885b6f00a0520464",
-    "url": "/static/media/guess-lost.a7983464.png"
-  },
-  {
-    "revision": "747a9fcb5382c6fd608f1128325e38dd",
-    "url": "/static/media/guess-won.747a9fcb.png"
   },
   {
     "revision": "51e154fa1b4dc9547800eb434af5f098",
